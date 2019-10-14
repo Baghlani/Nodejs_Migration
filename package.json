@@ -1,0 +1,11 @@
+{
+  "name": "migration-system",
+  "version": "0.1.0",
+  "description": "a migration module for nodeJS",
+  "main": "index.js",
+  "author": "Abolfazl Baghlani <afbaghlani@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
