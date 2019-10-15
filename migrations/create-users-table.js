@@ -27,5 +27,4 @@ let sch = Schema.create("users", table => {
         .collation("utf8mb4_persian_ci");
 });
 
-
 module.exports = JSON.stringify(sch.blueprint);
