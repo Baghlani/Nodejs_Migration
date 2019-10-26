@@ -5,7 +5,8 @@ let sch = Schema.create("users", table => {
         .column("id")
         .integer()
         .autoIncrement()
-        .unsigned();
+        .unsigned()
+        .query;
 
     table
         .column("name")
